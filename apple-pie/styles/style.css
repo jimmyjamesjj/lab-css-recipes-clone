@@ -1,0 +1,36 @@
+.div1{
+   
+   
+background-image: url("../images/apple-pie.jpg");
+ width: 1215px;
+height: 350px; 
+background-size: 100%;
+
+  padding:27px;
+}
+#h11{
+text-align: center;
+text-size-adjust: 15;
+color: white;
+font-size: 70px;
+
+}
+
+.recip{
+    display: flex;
+    align-content:center;
+}
+.boda{
+    border-top: 3px solid #bbb;
+  }
+
+  ol {
+    counter-reset: list;
+}
+ol > li {
+    list-style: none;
+}
+ol > li:before {
+    content: counter(list) ") ";
+    counter-increment: list;
+}
